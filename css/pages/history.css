@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.intro-container {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  width: 100%;
+  border-top: 10px solid #00a8e2;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-container {
+    padding-top: 50px;
+  }
+}
+
+.intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.intro-content-img .intro-img-a {
+  width: 500px;
+}
+
+@media only screen and (max-width: 540px) {
+  .intro-content-img .intro-img-a {
+    width: 300px;
+    text-align: center;
+  }
+}
+
+.intro-content-text {
+  padding-left: 50px;
+  line-height: 1.8;
+}
+
+.intro-content-text .intro-ca {
+  color: #54575a;
+  margin-bottom: 50px;
+}
+
+.intro-content-text .intro-ca h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content-text .intro-ca h3 {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content-text .intro-ca .intro-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content-text {
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=history.css.map */

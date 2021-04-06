@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.intro-container {
+  padding-top: 50px;
+  width: 100%;
+  border-top: 10px solid #00a8e2;
+}
+
+.intro-container .intro-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #54575a;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-container .intro-inner {
+    max-width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+}
+
+.intro-container .intro-inner .intro-head {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-content-container {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.intro-content-container .intro-content-a {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content-container {
+    font-size: 14px;
+  }
+}
+
+.custom-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .custom-container {
+    margin-top: 0;
+  }
+}
+
+.custom-container img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=custom.css.map */

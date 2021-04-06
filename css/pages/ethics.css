@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.et-container {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  border-top: 10px solid #00a8e2;
+}
+
+.et-container .et-head-a, .et-container .et-head-b {
+  text-align: center;
+  color: #54575a;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 740px) {
+  .et-container {
+    padding-top: 0;
+  }
+  .et-container .et-head-b {
+    margin: 0;
+  }
+}
+
+.et-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.et-content::before {
+  position: absolute;
+  content: '';
+  left: 33%;
+  top: -10px;
+  width: 3px;
+  height: 230px;
+  background-color: #54575a;
+}
+
+.et-content::after {
+  position: absolute;
+  content: '';
+  right: 33%;
+  top: -10px;
+  width: 3px;
+  height: 230px;
+  background-color: #54575a;
+}
+
+@media only screen and (max-width: 740px) {
+  .et-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .et-content::before, .et-content::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .et-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.et-a a {
+  color: #fff;
+  background-color: #313030;
+  width: 200px;
+  height: 50px;
+  font-weight: 500;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.et-a a:hover {
+  opacity: .7;
+}
+
+@media only screen and (max-width: 740px) {
+  .et-a a {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=ethics.css.map */

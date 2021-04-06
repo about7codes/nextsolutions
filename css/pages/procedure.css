@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.intro-container {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 100%;
+  border-top: 10px solid #00a8e2;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-container {
+    padding-top: 0;
+  }
+}
+
+.intro-container .intro-head {
+  text-align: center;
+  font-size: 20px;
+  color: #54575a;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-container .intro-head {
+    font-size: 18px;
+  }
+}
+
+.intro-content {
+  color: #54575a;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.intro-content-img {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.intro-content-img .intro-img-a {
+  max-width: 600px;
+  width: 100%;
+}
+
+.intro-content-text {
+  padding-left: 50px;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-content-text {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=procedure.css.map */

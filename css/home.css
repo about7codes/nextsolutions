@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.nav-container {
+  min-height: 600px;
+}
+
+.m-section {
+  border-top: 10px solid #00a8e2;
+}
+
+.wedo-inner {
+  padding-top: 50px;
+  color: #54575a;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wedo-inner .wedo-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(235px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+  padding-top: 90px;
+}
+
+.wedo-head {
+  margin: 0;
+  text-align: center;
+}
+
+.wedo-box {
+  padding: 0 50px;
+  border-right: 2px solid #54575a;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 956px) {
+  .wedo-box:nth-child(3) {
+    border: 0;
+  }
+}
+
+@media only screen and (max-width: 956px) and (max-width: 721px) {
+  .wedo-box:nth-child(3) {
+    border-right: 2px solid #54575a;
+  }
+}
+
+@media only screen and (max-width: 721px) {
+  .wedo-box:nth-child(2) {
+    border: 0;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .wedo-box {
+    border: 0 !important;
+  }
+}
+
+.wedo-box:last-child {
+  border: 0;
+}
+
+.wedo-box-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.wedo-box-top img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.wedo-box-top img:hover {
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.wedo-box-top span {
+  font-weight: 700;
+}
+
+.wedo-box-bottom span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.works-container {
+  padding-top: 130px;
+  padding-bottom: 150px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 740px) {
+  .works-container {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+}
+
+.works-container .works-head {
+  text-align: center;
+  color: #54575a;
+  margin-bottom: 40px;
+}
+
+.works-container .works-inner {
+  max-width: 1400px;
+  margin: 0  auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-container .works-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.works-thumb {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 71px;
+}
+
+.works-top {
+  position: absolute;
+  top: -80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-top {
+    top: -40px;
+  }
+}
+
+.works-top-a {
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-top-a {
+    height: 50px;
+  }
+}
+
+.works-top-b {
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-top-b {
+    width: 100px;
+  }
+}
+
+.works-mid {
+  position: relative;
+}
+
+.works-mid .works-mid-a {
+  width: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-mid .works-mid-a {
+    width: 250px;
+  }
+}
+
+.works-mid .works-mid-b {
+  position: absolute;
+  width: 300px;
+  left: 20px;
+  bottom: -20px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-mid .works-mid-b {
+    width: 170px;
+  }
+}
+
+.works-mid .thumb-b {
+  width: 500px;
+  left: -40px;
+  bottom: -80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-mid .thumb-b {
+    width: 270px;
+    left: -10px;
+    bottom: -40px;
+  }
+}
+
+.works-bottom {
+  text-align: center;
+  font-size: 18px;
+  color: #54575a;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .works-bottom {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,56 @@
+@import '../variables';
+
+
+// Intro text styles 
+
+.intro-container{
+    padding-top: 50px;
+    width: 100%;
+    border-top: 10px solid $nx-6;
+    @media only screen and (max-width: 992px){
+        padding-top: 0;
+    }
+    .intro-inner{
+        max-width: 900px;
+        margin: 0 auto;
+        color: $nx-5;
+        @media only screen and (max-width: 992px){
+            max-width: 100%;
+            padding: 0 15px;
+            font-size: 14px;
+        }
+        .intro-head{
+            text-align: center;
+            // max-width: 600px;
+            // margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+    }
+}
+
+.intro-content-container{
+    font-size: 18px;
+    line-height: 1.7;
+    .intro-content-a{
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 992px){
+        font-size: 14px;
+    }
+}
+
+
+// Custom Img styles 
+
+.custom-container{
+    margin-bottom: 150px;
+    text-align: center;
+    img{
+        // z-index: -1;
+        // position: absolute;
+        // top: -0px;
+        // left: 0;
+        max-width: 100%;
+    }
+}

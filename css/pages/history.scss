@@ -1,0 +1,63 @@
+@import '../variables';
+
+
+// Intro section styles below 
+
+.intro-container {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    width: 100%;
+    border-top: 10px solid $nx-6;
+    @media only screen and (max-width: 992px){
+        padding-top: 50px;
+    }
+}
+
+
+
+.intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    @media only screen and (max-width: 992px){
+        flex-direction: column-reverse;
+    }
+}
+
+
+.intro-content-img{
+    .intro-img-a{
+        width: 500px;
+        @media only screen and (max-width: 540px){
+            width: 300px;
+            text-align: center;
+        }
+    } 
+}
+
+.intro-content-text{
+    padding-left: 50px;
+    line-height: 1.8;
+    .intro-ca{
+        color: $nx-5;
+        margin-bottom: 50px;
+        h3{
+            margin: 0;
+            font-size: 30px;
+            @media only screen and (max-width: 992px){
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+        .intro-text{
+            @media only screen and (max-width: 992px){
+                font-size: 14px;
+            }
+        }
+    }
+    @media only screen and (max-width: 992px){
+        padding: 15px;
+    }
+}

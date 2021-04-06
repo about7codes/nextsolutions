@@ -1,0 +1,86 @@
+@import '../variables';
+
+
+// Et container styles 
+
+.et-container{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-top: 10px solid $nx-6;
+    .et-head-a, .et-head-b{
+        text-align: center;
+        color: $nx-5;
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 740px){
+        padding-top: 0;
+        .et-head-b{
+            margin: 0;
+        }
+    }
+}
+
+
+
+.et-content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    &::before{
+        position: absolute;
+        content: '';
+        left: 33%;
+        top: -10px;
+        width: 3px;
+        height: 230px;
+        background-color: $nx-5;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        right: 33%;
+        top: -10px;
+        width: 3px;
+        height: 230px;
+        background-color: $nx-5;
+    }
+    @media only screen and (max-width: 740px){
+        &::before, &::after{
+            display: none;
+        }
+        justify-content: center;
+    }
+    @media only screen and (max-width: 510px){
+        flex-direction: column;
+    }
+}
+
+
+.et-a{
+    a{
+        color: $nx-8;
+        background-color: $nx-7;
+        width: 200px;
+        height: 50px;
+        font-weight: 500;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s ease-in-out;
+        &:hover{
+            opacity: .7;
+        }
+        @media only screen and (max-width: 740px){
+            width: 150px;
+            height: 30px;
+            margin: 10px;
+            // font-weight: normal;
+            font-size: 14px;
+        }
+    }
+}
